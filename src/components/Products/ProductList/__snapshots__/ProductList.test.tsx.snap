@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product List component should renders with empty message 1`] = `
+<Fragment>
+  <styled.div>
+    You have no products
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Product List component should renders without crashing 1`] = `
+<Fragment>
+  <ProductListItem
+    key="product-1"
+    product={
+      Object {
+        "comments": Array [
+          Object {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          },
+          Object {
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          },
+          Object {
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          },
+          Object {
+            "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
+        "created": 2020-03-25T00:00:00.000Z,
+        "desc": "Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh",
+        "id": 1,
+        "image": "https://res.cloudinary.com/dsrkwxxo7/image/upload/v1589218153/samples/products/Wireless-headphones_vxnlz2.jpg",
+        "likes": 4,
+        "name": "Wireless headphones",
+      }
+    }
+  />
+  <ProductListItem
+    key="product-2"
+    product={
+      Object {
+        "comments": Array [
+          Object {
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          },
+          Object {
+            "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
+        "created": 2020-04-10T00:00:00.000Z,
+        "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "id": 2,
+        "image": "https://res.cloudinary.com/dsrkwxxo7/image/upload/v1589218152/samples/products/White-watch_n3ansu.jpg",
+        "likes": 10,
+        "name": "Round white watch with white band",
+      }
+    }
+  />
+  <ProductListItem
+    key="product-3"
+    product={
+      Object {
+        "comments": Array [
+          Object {
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          },
+        ],
+        "created": 2020-04-15T00:00:00.000Z,
+        "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "id": 3,
+        "image": "https://res.cloudinary.com/dsrkwxxo7/image/upload/v1589218152/samples/products/Maroon-plimsoll_i8lhlr.jpg",
+        "likes": 5,
+        "name": "Unpaired maroon plimsoll on top of yellow textile",
+      }
+    }
+  />
+  <ProductListItem
+    key="product-4"
+    product={
+      Object {
+        "comments": Array [
+          Object {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          },
+          Object {
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          },
+          Object {
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          },
+          Object {
+            "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+          Object {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          },
+          Object {
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          },
+          Object {
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          },
+          Object {
+            "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
+        "created": 2020-04-20T00:00:00.000Z,
+        "desc": "Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh",
+        "id": 4,
+        "image": "https://res.cloudinary.com/dsrkwxxo7/image/upload/v1589218152/samples/products/Wooden-stool_bex90w.jpg",
+        "likes": 20,
+        "name": "Beige wooden bar stool",
+      }
+    }
+  />
+  <ProductListItem
+    key="product-5"
+    product={
+      Object {
+        "comments": Array [
+          Object {
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          },
+          Object {
+            "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          },
+        ],
+        "created": 2020-04-25T00:00:00.000Z,
+        "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "id": 5,
+        "image": "https://res.cloudinary.com/dsrkwxxo7/image/upload/v1589218152/samples/products/Black-sunglasses_mffok6.jpg",
+        "likes": 7,
+        "name": "Black sunglasses",
+      }
+    }
+  />
+</Fragment>
+`;

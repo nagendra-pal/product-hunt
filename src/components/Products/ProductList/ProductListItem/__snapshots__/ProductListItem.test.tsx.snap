@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product List Item component should renders without crashing 1`] = `
+<div>
+  <styled.div>
+    <styled.div>
+      <styled.img
+        onClick={[Function]}
+        src="https://res.cloudinary.com/dsrkwxxo7/image/upload/v1589218153/samples/products/Wireless-headphones_vxnlz2.jpg"
+      />
+    </styled.div>
+    <styled.div>
+      <styled.div>
+        Wireless headphones
+      </styled.div>
+      <div>
+        Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh Lorem ipsum dolor amet post-ironic four dollar toasts selvage meh
+      </div>
+      <styled.div>
+        Mar 25, 2020
+      </styled.div>
+      <styled.div>
+        <styled.img
+          height="25"
+          onClick={[Function]}
+          src="https://res.cloudinary.com/dsrkwxxo7/image/upload/v1589205364/samples/like-1_eu3iot.svg"
+          width="25"
+        />
+        <styled.span>
+          4
+        </styled.span>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <Modal
+    autoFocus={true}
+    backdrop={true}
+    backdropTransition={
+      Object {
+        "mountOnEnter": true,
+        "timeout": 150,
+      }
+    }
+    centered={false}
+    fade={true}
+    isOpen={false}
+    keyboard={true}
+    modalTransition={
+      Object {
+        "timeout": 300,
+      }
+    }
+    onClosed={[Function]}
+    onOpened={[Function]}
+    returnFocusAfterClose={true}
+    role="dialog"
+    scrollable={false}
+    toggle={[Function]}
+    unmountOnClose={true}
+    zIndex={1050}
+  >
+    <ModalHeader
+      charCode={215}
+      closeAriaLabel="Close"
+      tag="h5"
+      toggle={[Function]}
+      wrapTag="div"
+    >
+      Comments
+    </ModalHeader>
+    <ModalBody
+      tag="div"
+    >
+      <ul
+        key="comment-0"
+      >
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </li>
+      </ul>
+      <ul
+        key="comment-1"
+      >
+        <li>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </li>
+      </ul>
+      <ul
+        key="comment-2"
+      >
+        <li>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </li>
+      </ul>
+      <ul
+        key="comment-3"
+      >
+        <li>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </li>
+      </ul>
+    </ModalBody>
+    <ModalFooter
+      tag="div"
+    >
+      <Button
+        color="secondary"
+        onClick={[Function]}
+        tag="button"
+      >
+        Cancel
+      </Button>
+    </ModalFooter>
+  </Modal>
+</div>
+`;
